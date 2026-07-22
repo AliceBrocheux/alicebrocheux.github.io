@@ -5,35 +5,8 @@ layout: default
 <div class="row g-5 mb-5">
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">{{ page.title }}</h3>
+    <!-- Put your CV PDF at assets/cv/cv.pdf and this button works as-is. -->
+    <a href="{{ site.github.url }}/assets/cv/cv.pdf" class="btn btn-outline-dark mb-4">Download PDF</a>
     {{ content }}
-    <!-- EDIT: drop your CV PDF at assets/cv/cv.pdf, this link then works as-is -->
-    <a href="{{ site.github.url }}/assets/cv/cv.pdf" class="btn btn-outline-dark">Download PDF</a>
-  </div>
-</div>
-
-<div class="row g-5 mb-5">
-  <div>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Education</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.education %}
-          <p class="fw-bold mb-0">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
-      </div>
-    </div>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Positions</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
-          <p class="fw-bold mb-0">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
-      </div>
-    </div>
   </div>
 </div>

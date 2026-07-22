@@ -1,13 +1,9 @@
 <footer class="pt-5 my-5 text-muted border-top">
   <div class="row">
     <div class="col-md-6 text-end social-media-icons">
-      {% for item in site.data.settings.social %}
-        {% if item.icon == 'envelope' %}
-          <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fas fa-envelope"></i></a>
-        {% else %}
-          <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
-        {% endif %}
-      {% endfor %}
+      <!-- To add another link (LinkedIn, X, ORCID...), copy one of these two lines and edit it. -->
+      <a href="https://github.com/AliceBrocheux" class="ms-3 fs-5"><i class="fab fa-github"></i></a>
+      <a href="mailto:you@example.com" class="ms-3 fs-5"><i class="fas fa-envelope"></i></a>
     </div>
   </div>
 </footer>

@@ -1,64 +1,47 @@
 # alicebrocheux.github.io
 
-Personal academic website, built on [LenPaul/academic](https://github.com/LenPaul/academic)
-(a Jekyll theme), adapted to: **About** (home) → **Research** → **Teaching** → **CV**.
-Served by GitHub Pages from `main` at https://alicebrocheux.github.io.
+My academic website. Live at https://alicebrocheux.github.io.
 
-## Structure
+## How to update it
 
-```
-index.md               About / bio (home page) — layout: about
-research.md             Research page (intro text + publications list) — layout: research
-teaching.md              Teaching page (course list) — layout: teaching
-cv.md                     CV page — layout: cv
+You never need git, a terminal, or to understand how the site is built.
+To change anything:
 
-_config.yml               Site title/description
-_data/settings.yml        Nav menu, footer social icons, list of courses taught
-_data/publications.yml    Publications list, shown on the Research page
-_data/cv/                 Education and Positions entries, shown on the CV page
+1. On github.com, open the file you want to change (list below).
+2. Click the pencil icon (top right of the file) to edit it.
+3. Type your changes directly — it's just plain text.
+4. Scroll down, click **"Commit changes"**.
+5. Wait about a minute — the live site updates itself automatically.
 
-_layouts/                 Page templates (about, research, teaching, cv, page, default)
-_includes/                Shared header/footer/head snippets
-_sass/, assets/css/       Styling (Bootstrap-based)
-assets/img/               Photos — profile-placeholder.svg stands in for your photo
-assets/cv/                Put your cv.pdf here — the CV page's "Download PDF" button
-                           already links to assets/cv/cv.pdf
-publications/             Put PDF copies of papers here if you want to self-host them
-```
+That's it. You can also just ask Claude to make the change for you in a
+chat — describe what you want changed and it'll edit the file and publish it.
 
-## Where to fill things in
+## The 4 files you'll actually edit
 
-Every editable spot is marked with an `<!-- EDIT: ... -->` comment or a
-`[bracketed placeholder]`. In particular:
+| File | What it controls |
+|---|---|
+| `index.md` | Home page: your title/position and bio |
+| `research.md` | Research page: description + publications list |
+| `teaching.md` | Teaching page: list of courses |
+| `cv.md` | CV page: education, positions, skills |
 
-- **`_config.yml`** — your name and title/position.
-- **`index.md`** — your title/position and bio paragraph (shown on the home/About page).
-- **`research.md`** — description of your research; the publications list
-  below it comes from `_data/publications.yml` (duplicate a `list` entry per
-  publication there).
-- **`teaching.md`** — optional intro text; the course list comes from the
-  `teaching` key in `_data/settings.yml` (duplicate an entry per course).
-- **`_data/cv/education.yml`** and **`_data/cv/academic-experience.yml`** —
-  one entry per degree / position.
-- **`_data/settings.yml`** — footer social links (GitHub/email by default;
-  add more rows for LinkedIn, Twitter/X, ORCID, etc. — `icon` is any
-  [Font Awesome brand name](https://fontawesome.com/search?o=r&f=brands)).
-- **`assets/img/profile-placeholder.svg`** — replace with a real photo (e.g.
-  `assets/img/profile.jpg`) and update the `src` in `_layouts/about.html`.
-- **`assets/cv/cv.pdf`** — drop your CV PDF here; the download button on the
-  CV page already points to it.
+Each one is plain text/Markdown — headings start with `#`, list items start
+with `-`. No code to understand.
 
-## Local preview
+To change your **name**, edit `_config.yml` (one line, `title: "..."`).
 
-```bash
-bundle install
-bundle exec jekyll serve
-```
+To change your **photo**, upload a new image to `assets/img/` (there's a
+"Add file" button on github.com), then edit `_layouts/about.html` so the
+`src=` on the `<img>` tag points at your new filename instead of
+`profile-placeholder.svg`.
 
-Then visit `http://localhost:4000`.
+To add your **CV as a PDF**, upload it to `assets/cv/` named exactly `cv.pdf`
+— the "Download PDF" button on the CV page already links there.
+
+Everything else in this repo (`_layouts/`, `_includes/`, `assets/css/`,
+`assets/libs/`) is styling/plumbing you shouldn't need to touch.
 
 ## Deploying
 
-Push to `main` — GitHub Pages builds and serves this repo automatically at
-`https://alicebrocheux.github.io` (enable it once under *Settings → Pages*
-if it isn't already active).
+Every commit to `main` rebuilds the live site automatically via GitHub
+Pages — there's no separate deploy step.
