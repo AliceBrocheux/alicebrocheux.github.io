@@ -1,0 +1,6 @@
+# EDIT: one entry per publication. `url` can be an external link (DOI, journal
+# page) or a path to a PDF you've placed in the publications/ folder, e.g.
+# '/publications/my-paper.pdf'. Duplicate the block to add more.
+list:
+  - name: '[Publication title, authors, venue, year]'
+    url: '#'

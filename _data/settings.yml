@@ -1,0 +1,18 @@
+# Top navigation, in order.
+menu:
+  - {name: 'about', url: '/'}
+  - {name: 'research', url: '/research'}
+  - {name: 'teaching', url: '/teaching'}
+  - {name: 'cv', url: '/cv'}
+
+# Icons shown in the footer. `icon` is a Font Awesome brand name
+# (https://fontawesome.com/search?o=r&f=brands) except 'envelope', which is
+# a solid-style icon used for email. Delete rows you don't want, duplicate
+# the pattern to add more (e.g. 'linkedin', 'twitter', 'orcid').
+social:
+  - {icon: 'github', link: 'https://github.com/AliceBrocheux'}
+  - {icon: 'envelope', link: 'mailto:you@example.com'} # EDIT: your public email
+
+# EDIT: one entry per course/section you teach. Shown on the Teaching page.
+teaching:
+  - {name: '[Course name]', semester: '[Semester/Year]', url: '#'}
