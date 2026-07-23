@@ -1,9 +1,12 @@
 <footer class="pt-5 my-5 text-muted border-top">
   <div class="row">
     <div class="col-md-6 text-end social-media-icons">
-      <!-- To add another link (LinkedIn, X, ORCID...), copy one of these two lines and edit it. -->
+      {% if page.url == '/' or page.url == '/fr/' %}
+      <!-- To add another link (X, ORCID...), copy one of these lines and edit it. -->
       <a href="https://github.com/AliceBrocheux" class="ms-3 fs-5"><i class="fab fa-github"></i></a>
       <a href="mailto:you@example.com" class="ms-3 fs-5"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/alice-brocheux-b3bb2a196" target="_blank" rel="noopener" class="ms-3 fs-5"><i class="fab fa-linkedin"></i></a>
+      {% endif %}
     </div>
   </div>
   <div class="row">
