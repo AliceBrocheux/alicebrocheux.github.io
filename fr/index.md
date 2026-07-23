@@ -1,12 +1,18 @@
 ---
 layout: about
-title: "Accueil"
+title: ""
 lang: fr
 ---
 
-Votre titre ou poste ici — par exemple, « Doctorante en science politique,
-Université de Rochester ».
+<br>
 
-Écrivez ensuite 2 à 4 phrases pour vous présenter : qui vous êtes, sur quoi
-porte votre recherche, et ce qui vous y a intéressée. Ce paragraphe
-correspond à la version française de la page « about ».
+Bonjour ! Je suis une doctorante en sciences politique à l'Université de Rochester et Democracy Center Graduate Fellow depuis 2023. J'étudie les dynamiques comportementales des élites politiques et des électeurs dans des contextes de recul démocratique en utilisant des expériences, des données d'observation et des modèles théoriques. En terme d'intérêts géographiques, je me concentre sur la France et les Etats-Unis. 
+Avant de débuter ma thèse, j'ai reçu une licence en mathématiques et sciences politiques de l'Université McGill (2021).
+
+<br>
+
+Vous pouvez me contacter par mail à abrocheu(at)ur(dot)rochester(dot)edu.
+
+<br><br><br>
+
+_For the English version, click on 'EN' in the top right corner._
