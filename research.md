@@ -13,6 +13,5 @@ title: ""
 ### Working Papers
 
 "Endorsements as Gatekeeping? Democratic Backsliding and the Limits of Elite Persuasion."
-
 <br>
 "Strategic Behavior and the Limits of Algorithmic Gerrymandering Detection." _with Scott F Abramson and Melody Huang_. 
