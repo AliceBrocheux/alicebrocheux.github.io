@@ -14,3 +14,6 @@ Before coming to Rochester, I received a BA&S in Mathematics and Political Scien
 <br>
 
 You can contact me via email at abrocheu(at)ur(dot)rochester(dot)edu. 
+
+<br><br><br>
+_Pour la version en français, cliquez sur 'FR' en haut à gauche._
