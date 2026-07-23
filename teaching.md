@@ -5,6 +5,8 @@ title: ""
 
 ### Teaching Assistant
 
+<br>
+
 American Elections and Campaigns (Fall 2025) <br>
 Instructor: James Druckman
 <div style="height: 6px;"></div>
