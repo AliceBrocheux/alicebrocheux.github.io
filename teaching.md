@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Teaching"
+title: ""
 ---
 
-List the courses you've taught or TA'd, most recent first:
+### Teaching Assistant
 
-- **Course Name** — Institution, Semester/Year
-- **Another Course** — Institution, Semester/Year
-
-If you haven't taught anything yet, you can delete this file entirely —
-just also remove the "teaching" link in `_includes/header.html`.
+American Elections and Campaigns (Fall 2025) <br>
+Instructor: James Druckman
+<div style="height: 6px;"></div>
+Data Analysis I (Spring 2026) <br>
+Instructor: Mayya Komisarchik
