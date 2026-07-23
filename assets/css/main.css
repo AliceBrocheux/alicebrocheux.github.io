@@ -7,6 +7,10 @@ body {
 header.border-bottom {
   border-bottom-color: #023020 !important;
   border-bottom-width: 1px !important;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 body a {
