@@ -3,7 +3,7 @@ layout: about
 title: "Home"
 ---
 
-<span style="font-size: 0.75em;">PhD Student in Political Science, University of Rochester.</span>
+<span style="font-size: 0.9em;">PhD Student in Political Science, University of Rochester.</span>
 
 <br>
 
