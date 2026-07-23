@@ -7,3 +7,13 @@ body {
 body a {
   color: #212529 !important;
 }
+
+.site-nav-link {
+  transition: color 0.15s ease-in-out;
+}
+
+.site-nav-link:hover,
+.site-nav-link.active {
+  color: #2f6f52 !important;
+  font-weight: bold;
+}

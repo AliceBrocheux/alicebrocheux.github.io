@@ -7,9 +7,9 @@
   </div>
   {% endunless %}
   <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-    <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}/">about</a>
-    <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}/research">research</a>
-    <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}/teaching">teaching</a>
-    <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}/cv">cv</a>
+    <a class="me-3 py-2 text-decoration-none site-nav-link{% if page.url == '/' %} active{% endif %}" href="{{ site.github.url }}/">about</a>
+    <a class="me-3 py-2 text-decoration-none site-nav-link{% if page.url == '/research.html' %} active{% endif %}" href="{{ site.github.url }}/research">research</a>
+    <a class="me-3 py-2 text-decoration-none site-nav-link{% if page.url == '/teaching.html' %} active{% endif %}" href="{{ site.github.url }}/teaching">teaching</a>
+    <a class="me-3 py-2 text-decoration-none site-nav-link{% if page.url == '/cv.html' %} active{% endif %}" href="{{ site.github.url }}/cv">cv</a>
   </nav>
 </header>
