@@ -8,7 +8,7 @@ lang: en
 
 ### Teaching Assistant
 
-<br>
+<div style="height: 8px;"></div>
 
 American Elections and Campaigns (Fall 2025) <br>
 _Instructor: James Druckman_
