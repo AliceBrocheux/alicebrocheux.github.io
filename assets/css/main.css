@@ -17,3 +17,10 @@ body a {
   color: #2f6f52 !important;
   font-weight: bold;
 }
+
+/* Spacer classes: use <div class="gap-s"></div> etc. to add vertical
+   space between lines/paragraphs, smaller or larger than a normal <br>. */
+.gap-xs { height: 0.25rem; }
+.gap-s  { height: 0.5rem; }
+.gap-m  { height: 1rem; }
+.gap-l  { height: 2rem; }
