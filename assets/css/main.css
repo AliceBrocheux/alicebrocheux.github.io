@@ -17,3 +17,29 @@ body a {
   color: #2f6f52 !important;
   font-weight: bold;
 }
+
+.lang-toggle {
+  display: inline-flex;
+  border: 1px solid #2f6f52;
+  border-radius: 999px;
+  overflow: hidden;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+.lang-toggle a {
+  padding: 0.3rem 0.65rem;
+  text-decoration: none !important;
+  color: #2f6f52 !important;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.lang-toggle a.active {
+  background: #2f6f52;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.lang-toggle a:hover:not(.active) {
+  background: #2f6f5222;
+}
