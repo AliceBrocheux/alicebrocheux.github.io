@@ -8,7 +8,9 @@ title: ""
 <br>
 
 American Elections and Campaigns (Fall 2025) <br>
-Instructor: James Druckman
+_Instructor: James Druckman_
+
 <div style="height: 6px;"></div>
+
 Data Analysis I (Spring 2026) <br>
-Instructor: Mayya Komisarchik
+_Instructor: Mayya Komisarchik_
