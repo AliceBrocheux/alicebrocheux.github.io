@@ -8,7 +8,7 @@ lang: fr
 
 ### Chargée de TD
 
-<br>
+<div style="height: 8px;"></div>
 
 American Elections and Campaigns (Automne 2025) <br>
 _Enseignant : James Druckman_
