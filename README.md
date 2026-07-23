@@ -16,17 +16,29 @@ To change anything:
 That's it. You can also just ask Claude to make the change for you in a
 chat — describe what you want changed and it'll edit the file and publish it.
 
-## The 4 files you'll actually edit
+## The files you'll actually edit
+
+The site is bilingual — English pages at the root, French pages in `fr/`.
+Same 4 pages, just doubled:
 
 | File | What it controls |
 |---|---|
-| `index.md` | Home page: your title/position and bio |
-| `research.md` | Research page: description + publications list |
-| `teaching.md` | Teaching page: list of courses |
-| `cv.md` | CV page: education, positions, skills |
+| `index.md` | Home page (English): your title/position and bio |
+| `research.md` | Research page (English): description + publications list |
+| `teaching.md` | Teaching page (English): list of courses |
+| `cv.md` | CV page (English): education, positions, skills |
+| `fr/index.md` | Home page (French) |
+| `fr/research.md` | Research page (French) |
+| `fr/teaching.md` | Teaching page (French) |
+| `fr/cv.md` | CV page (French) |
 
 Each one is plain text/Markdown — headings start with `#`, list items start
-with `-`. No code to understand.
+with `-`. No code to understand. The French pages started as blank templates
+(not machine-translated) — write them yourself, or ask Claude to translate
+your English content as a starting draft.
+
+A language toggle (EN/FR) in the top nav switches between the matching page
+in each language automatically — no need to maintain that link yourself.
 
 To change your **name**, edit `_config.yml` (one line, `title: "..."`).
 

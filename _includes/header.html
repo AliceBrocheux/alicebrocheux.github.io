@@ -1,15 +1,29 @@
+{% assign lang = page.lang | default: 'en' %}
+{% assign prefix = '' %}
+{% if lang == 'fr' %}{% assign prefix = '/fr' %}{% endif %}
+{% assign about_url = prefix | append: '/' %}
+{% assign research_url = prefix | append: '/research.html' %}
+{% assign teaching_url = prefix | append: '/teaching.html' %}
+{% assign cv_url = prefix | append: '/cv.html' %}
+{% if lang == 'fr' %}
+  {% assign other_lang_href = page.url | remove_first: '/fr' %}
+  {% assign other_lang_label = 'EN' %}
+{% else %}
+  {% assign other_lang_href = page.url | prepend: '/fr' %}
+  {% assign other_lang_label = 'FR' %}
+{% endif %}
+
 <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
-  {% unless page.url == '/' %}
   <div>
-    <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
+    <a href="{{ site.github.url }}{{ prefix }}/" class="d-flex align-items-center text-decoration-none">
       <span class="fs-4 fw-bold">{{ site.title }}</span>
     </a>
   </div>
-  {% endunless %}
   <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-    <a class="me-3 py-2 text-decoration-none site-nav-link{% if page.url == '/' %} active{% endif %}" href="{{ site.github.url }}/">about</a>
-    <a class="me-3 py-2 text-decoration-none site-nav-link{% if page.url == '/research.html' %} active{% endif %}" href="{{ site.github.url }}/research">research</a>
-    <a class="me-3 py-2 text-decoration-none site-nav-link{% if page.url == '/teaching.html' %} active{% endif %}" href="{{ site.github.url }}/teaching">teaching</a>
-    <a class="me-3 py-2 text-decoration-none site-nav-link{% if page.url == '/cv.html' %} active{% endif %}" href="{{ site.github.url }}/cv">cv</a>
+    <a class="me-3 py-2 text-decoration-none site-nav-link{% if page.url == about_url %} active{% endif %}" href="{{ site.github.url }}{{ prefix }}/">{% if lang == 'fr' %}accueil{% else %}about{% endif %}</a>
+    <a class="me-3 py-2 text-decoration-none site-nav-link{% if page.url == research_url %} active{% endif %}" href="{{ site.github.url }}{{ prefix }}/research">{% if lang == 'fr' %}recherche{% else %}research{% endif %}</a>
+    <a class="me-3 py-2 text-decoration-none site-nav-link{% if page.url == teaching_url %} active{% endif %}" href="{{ site.github.url }}{{ prefix }}/teaching">{% if lang == 'fr' %}enseignement{% else %}teaching{% endif %}</a>
+    <a class="me-3 py-2 text-decoration-none site-nav-link{% if page.url == cv_url %} active{% endif %}" href="{{ site.github.url }}{{ prefix }}/cv">cv</a>
+    <a class="py-2 text-decoration-none site-nav-link" href="{{ site.github.url }}{{ other_lang_href }}">{{ other_lang_label }}</a>
   </nav>
 </header>

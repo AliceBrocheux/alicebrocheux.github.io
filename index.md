@@ -1,6 +1,7 @@
 ---
 layout: about
 title: ""
+lang: en
 ---
 
 <!-- <span style="font-size: 0.9em;">PhD Student in Political Science, University of Rochester.</span> -->
