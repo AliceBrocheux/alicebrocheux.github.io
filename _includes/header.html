@@ -1,5 +1,12 @@
 <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
-  <nav class="d-inline-flex mt-2 mt-md-0">
+  {% unless page.url == '/' %}
+  <div>
+    <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
+      <span class="fs-4 fw-bold">{{ site.title }}</span>
+    </a>
+  </div>
+  {% endunless %}
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
     <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}/">about</a>
     <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}/research">research</a>
     <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}/teaching">teaching</a>
