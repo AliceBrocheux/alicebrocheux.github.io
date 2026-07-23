@@ -52,3 +52,16 @@ body a {
 .lang-toggle a:hover:not(.active) {
   background: #2f6f5222;
 }
+
+.section-box {
+  background-color: #c7ded2;
+  padding: 1.25rem 1.5rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.section-box h3 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.75rem;
+}

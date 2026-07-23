@@ -4,6 +4,8 @@ title: ""
 lang: fr
 ---
 
+<div class="section-box" markdown="1">
+
 ### Chargée de TD
 
 <br>
@@ -15,3 +17,5 @@ _Enseignant : James Druckman_
 
 Data Analysis I (Printemps 2026) <br>
 _Enseignante : Mayya Komisarchik_
+
+</div>

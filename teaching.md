@@ -4,6 +4,8 @@ title: ""
 lang: en
 ---
 
+<div class="section-box" markdown="1">
+
 ### Teaching Assistant
 
 <br>
@@ -15,3 +17,5 @@ _Instructor: James Druckman_
 
 Data Analysis I (Spring 2026) <br>
 _Instructor: Mayya Komisarchik_
+
+</div>
