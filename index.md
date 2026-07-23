@@ -4,6 +4,7 @@ title: "Home"
 ---
 
 PhD Student in Political Science, University of Rochester. 
+
 <br>
 
 Hello! I am a PhD student in Political Science at the University of Rochester and recipient of a Democracy Center Fellowship since 2023. I study dynamics of elite and voter behavior in contexts of democratic backsliding, using experiments, observational data and formal theory. My case studies are France and the United States. <br>
