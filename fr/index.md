@@ -16,3 +16,6 @@ Vous pouvez me contacter par mail à abrocheu(at)ur(dot)rochester(dot)edu.
 <br><br><br>
 
 _For the English version, click on 'EN' in the top right corner._
+
+<div style="height: 20px;"></div>
+<span style="font-size: 0.7em;">[crédits](/fr/credits)</span>
