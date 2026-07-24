@@ -18,4 +18,8 @@ Vous pouvez me contacter par mail à abrocheu(at)ur(dot)rochester(dot)edu.
 _For the English version, click on 'EN' in the top right corner._
 
 <div style="height: 20px;"></div>
-<span style="font-size: 0.7em;">[crédits](/fr/credits)</span>
+<div style="text-align: right; font-size: 0.7em;" markdown="1">
+
+[crédits du design du site](/fr/credits)
+
+</div>
