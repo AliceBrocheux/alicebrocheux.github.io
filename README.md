@@ -19,18 +19,16 @@ chat — describe what you want changed and it'll edit the file and publish it.
 ## The files you'll actually edit
 
 The site is bilingual — English pages at the root, French pages in `fr/`.
-Same 4 pages, just doubled:
+Same 3 pages, just doubled:
 
 | File | What it controls |
 |---|---|
 | `index.md` | Home page (English): your title/position and bio |
 | `research.md` | Research page (English): description + publications list |
 | `teaching.md` | Teaching page (English): list of courses |
-| `cv.md` | CV page (English): education, positions, skills |
 | `fr/index.md` | Home page (French) |
 | `fr/research.md` | Research page (French) |
 | `fr/teaching.md` | Teaching page (French) |
-| `fr/cv.md` | CV page (French) |
 
 Each one is plain text/Markdown — headings start with `#`, list items start
 with `-`. No code to understand. The French pages started as blank templates
@@ -47,8 +45,10 @@ To change your **photo**, upload a new image to `assets/img/` (there's a
 `src=` on the `<img>` tag points at your new filename instead of
 `profile-placeholder.svg`.
 
-To add your **CV as a PDF**, upload it to `assets/cv/` named exactly `cv.pdf`
-— the "Download PDF" button on the CV page already links there.
+To update your **CV**, just replace `assets/cv/cv.pdf` with a new file of the
+same name (upload on github.com, it'll ask to replace the existing one).
+The "cv" link in the nav bar opens this PDF directly — there's no separate
+CV page.
 
 Everything else in this repo (`_layouts/`, `_includes/`, `assets/css/`,
 `assets/libs/`) is styling/plumbing you shouldn't need to touch.
